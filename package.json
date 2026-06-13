@@ -1,7 +1,7 @@
 {
   "name": "opento-meeting-bot-worker",
-  "version": "1.0.0",
-  "description": "OpenTo AI Meeting Bot Worker",
+  "version": "4.10.2",
+  "description": "OpenTo AI Meeting Bot Worker - V4.10.2 Safe Camera On After Admission",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "^4.18.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^22.15.0"
   },
   "engines": {
     "node": ">=20"
